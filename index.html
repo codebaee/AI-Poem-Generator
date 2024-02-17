@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="./src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +16,7 @@
           <input
             type="text"
             name=""
-            id=""
+            id="instructions"
             placeholder="What type of poem would you like?"
             autofocus
             autocomplete="off"
@@ -25,9 +26,8 @@
           <input type="submit" value="Submit" class="button" />
         </form>
         <div class="poem-output" id="poem">
-          poem goes here <br />
-          poem goes here <br />
-          poem goes here
+          <br />
+          <br />
         </div>
       </main>
       <footer>

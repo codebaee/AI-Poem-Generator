@@ -48,6 +48,7 @@ form {
   border: none;
   border-radius: 80px;
   width: 70px;
+  box-shadow: 2px 2px 5px #ce879c;
 }
 .button:hover {
   background-color: whitesmoke;
@@ -61,6 +62,11 @@ form {
   line-height: 1.5;
   border-left: 5px solid #ce879c;
   border-right: 5px solid #ce879c;
+  line-height: 40px;
+}
+.poem-output strong {
+  color: #f4b495;
+  font-size: 25px;
 }
 footer {
   padding: 35px;
