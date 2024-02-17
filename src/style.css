@@ -22,13 +22,22 @@ header {
   font-size: 20px;
 }
 form {
+  display: flex;
+}
+.form-container {
   padding: 30px;
   background-color: #fcf4c3;
   border-radius: 30px;
-  display: flex;
   margin-bottom: 30px;
   border-left: 5px solid #ce879c;
   border-right: 5px solid #ce879c;
+}
+.hint {
+  text-align: left;
+  line-height: 1.5;
+  font-size: 15px;
+  margin-top: 10px;
+  opacity: 0.7;
 }
 .textfield {
   padding: 20px;
@@ -64,11 +73,23 @@ form {
   border-right: 5px solid #ce879c;
   line-height: 40px;
 }
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+}
 .poem-output strong {
   color: #f4b495;
   font-size: 25px;
 }
+.hidden {
+  display: none;
+}
 footer {
+  margin-top: 60px;
   padding: 35px;
   font-size: 12px;
 }
