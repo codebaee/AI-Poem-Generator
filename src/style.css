@@ -1,6 +1,80 @@
-/* body {
-  background-color: #c16c68;
-  color: #62664b;
+body {
+  background-color: #ee9a98;
+  color: #ce879c;
   font-family: monospace;
+  text-shadow: 1px 1px 2px #ce879c, 0 0 1em #ee9a98, 0 0 0.2em #ee9a98;
+}
+main {
+  margin-bottom: 30px;
+}
+.container {
+  max-width: 800px;
+  margin: 800px auto;
   text-align: center;
-} */
+  border: 6px solid #ce879c;
+  background-color: #f4b495;
+  padding: 100px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #ce879c;
+}
+header {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+form {
+  padding: 30px;
+  background-color: #fcf4c3;
+  border-radius: 30px;
+  display: flex;
+  margin-bottom: 30px;
+  border-left: 5px solid #ce879c;
+  border-right: 5px solid #ce879c;
+}
+.textfield {
+  padding: 20px;
+  border: 1px solid #f4b495;
+  width: 80%;
+  border-radius: 60px;
+  line-height: 24px;
+  font-size: 24px;
+  color: #f4b495;
+
+  box-shadow: 5px 5px 5px #f4b495;
+}
+.button {
+  margin-left: 15px;
+  background-color: #ce879c;
+  color: white;
+  border: none;
+  border-radius: 80px;
+  width: 70px;
+}
+.button:hover {
+  background-color: whitesmoke;
+  color: #ce879c;
+}
+.poem-output {
+  background-color: #fcf4c3;
+  padding: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  border-left: 5px solid #ce879c;
+  border-right: 5px solid #ce879c;
+}
+footer {
+  padding: 35px;
+  font-size: 12px;
+}
+
+footer a {
+  color: #fcf4c3;
+  text-decoration: none;
+}
+footer a:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+footer a:visited {
+  color: aliceblue;
+}
